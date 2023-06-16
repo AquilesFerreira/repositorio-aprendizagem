@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+header section.topo{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-auto-rows: 70px;
+}
+
+header section.topo article.logo{
+    grid-column: 2 / span 1;
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    padding: 13px;
+
+}
+
+header section.topo article.login{
+    grid-column: 3 / span 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 21px 60px;
+    
+}
+
+header section.topo article.login a{
+    text-decoration: none;
+    display: inline-flex;
+    color: #5f621c;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+header section.topo article.login a span.material-symbols-outlined{
+    font-size: 35px;
+}
+
+header section.navegaçao{
+    background-color: #f6f4ed;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-auto-rows: 50px;
+}
+
+header section.navegaçao article.links nav ul a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 7px;
+}
+
+header section.navegaçao article.links nav ul a li{
+    display: inline-flex;
+    color: #5f621c;
+} 
+
+header section.navegaçao article.links nav ul#primeiro{
+    padding: 0px 8px;
+    float: left;
+}    
+
+header section.navegaçao article.links nav ul#segundo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header section.navegaçao article.links nav ul#terceiro{
+    float: right;
+    padding: 0px 8px;
+}
+
+main{
+    height: 4350px;
+    width: 100%;
+    background-color: #ffffff;    
+}
+
+main section#primeira article{
+    display: grid;
+    place-items: center;
+}
+
+main section#primeira article.texto{
+    display: grid;
+    place-items: center;
+    grid-auto-columns: 1200px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+main section#primeira article.texto p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #00000080;
+    margin: 10px 0px;
+}
+
+main section#primeira section.caixa{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1200px;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+main section#primeira section.caixa form{
+    display: inline-flex;
+}
+
+main section#primeira section.caixa form p{
+    margin: 0px;
+    border-color: #c3c50b;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    color: #827f21;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+main section#primeira section.caixa form input{
+    font-size: 17px;
+    padding: 0px 65px 0px 35px;
+    border-color: #c3c50b;
+    border-style: solid;
+    border-width: 1px 1px 1px 0px;
+    color: #626262;
+}
+
+main section#primeira section.caixa form button{
+    height: 20px;
+    width: 70px;
+    background: #e9eaa8;
+    font-size: 13px;
+    color: #827f21;
+    position: relative;
+    bottom: -20px;
+    right: 58px;
+    border: 0;
+    font-weight: bold;
+}
+
+main section#secundaria{
+    display: grid;
+    grid-template-columns: 326px 845px;
+    justify-content: center;
+    margin-top: 50px;
+    grid-auto-rows: 357px;
+    gap: 21px;
+}
+
+main section#secundaria article.video a span.material-symbols-outlined{
+    position: absolute;
+    margin: 141px -201px;
+    font-size: 75px;
+    color: #ffffff;
+}
+
+main section#terceira{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+}
+
+main section#terceira figure{
+    display: contents;
+    margin: 0;
+}
+
+main section#terceira figure img{
+    margin: 20px 8px 0px 8px;
+}
+
+main section#terceira figure img:hover{
+    display: none;
+}
+
+main section#terceira article{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080;
+    padding: 93px 10px
+}
+
+main section#terceira article#mix{
+    display: grid;
+    grid-template-columns: 277px 323px;
+    padding: 0;
+}
+
+main section.quarta{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+}
+
+main section.quarta figure{
+    display: contents;
+}
+
+main section.quarta figure img{
+    margin: 20px 8px 0px 8px;
+}
+
+main section.quarta article{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080;
+    padding: 80px 75px 90px 0px;
+}
+
+main section.ultima a{
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 150px;
+    color: #00000080;
+    font-weight: 700;
+}
+
+main section.ultima a span.material-symbols-outlined{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
+aside{
+    height: 319px;
+    width: calc(100% - 100px);
+    background-color: #ffffff;
+    margin: 0px 50px;
+}
+
+aside section.asideum{
+    border-style: solid;
+    border-color: #11111120;
+    border-width: 1px 0px 1px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    align-items: baseline;
+}
+
+aside section.asideum section h3{
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080;
+}
+
+aside section.asideum section figure{
+    margin: 0;
+}
+
+aside section.asideum section p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080;
+}
+
+aside section.asideum section a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080; 
+}
+
+aside section.asideum section nav ul{
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080;
+    font-size: 14px;
+}
+
+aside section.asideum section nav ul li{
+    list-style: none;
+}
+
+aside section.asideum section article{
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px 25px;
+    gap: 15px
+}
+
+aside section.asideum section form{
+    display: inline-flex;
+}
+
+aside section.asideum section form input{
+    border-style: solid;
+    border-color: #6f6f6f;
+    border-width: 1px 1px 1px 1px;
+    padding: 13px 0px 13px 25px;
+    font-size: 20px;
+    width: 164px;
+    height: 26px;
+}
+
+aside section.asideum section form button{
+    border: none;
+    font-size: 15px;
+    height: 54px;
+    background-color: #6f6f6f;
+    position: relative;
+    right: 3px;
+    width: 95px;
+    font-weight: bold;
+    color: #fff;
+}
+
+aside section.asidedois{
+    display: grid;
+    grid-template-columns: repeat(8, 12%);
+    border-style: solid;
+    border-color: #11111120;
+    border-width: 0px 0px 1px 0px;
+    align-items: baseline;
+    padding: 10px 0px;
+}
+
+aside section.asidedois section a{
+    text-decoration: none;
+    list-style: none; 
+}
+
+aside section.asidedois section a h3{
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080;
+    font-size: 14px;
+    margin: 0px 0px 5px;
+}
+
+aside section.asidedois section nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+aside section.asidedois section nav ul a li{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00000080;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+footer{
+    height: 50px;
+    width: calc(100% - 100px);
+    background-color: #ffffff;
+    margin: 15px 50px 0px;
+}
+
+footer section{
+    display: flex;
+    align-items: baseline;
+}
+
+footer section h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6f6f6f;
+    font-size: 12px;
+    margin: 0;
+}
+
+footer section p{
+    margin: 0px 10px;
+}
+
+footer section a{
+    color: #6f6f6f;
+    font-size: 12px;
+}
+
+footer section article{
+    color: #6f6f6f;
+    font-size: 12px;
+}
